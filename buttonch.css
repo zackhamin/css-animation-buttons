@@ -1,0 +1,37 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-image: url(cnlogo.png);
+    margin-left: 50%;
+    margin-top: 20%;
+    transition: border-radius 2s;
+    animation-name: square;
+    animation-duration: 4s;
+}
+
+.square:hover{
+    border-radius:30%;
+}
+@keyframes square{
+    0%  {
+    box-shadow: 10px 10px  darkgrey;
+    }
+
+    10% {
+    margin-left: 50%;
+    margin-right: 50%;
+    box-shadow: 6px 6px 0 darkslategrey;}
+
+    15% {
+    margin-left: 80%;
+    margin-right: 80%;
+    box-shadow: 6px 6px 0 black; }
+
+    20% {
+    margin-left: 80%;
+    box-shadow: 6px 6px 0 black; }
+    
+     25% {
+    margin-left: 80%;
+    box-shadow: 6px 6px 0 black; }
+}

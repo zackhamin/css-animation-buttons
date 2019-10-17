@@ -1,13 +1,32 @@
 
+
+.zacksportfolio{
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 130px;
+    color:black;
+    position: relative;
+    animation:1;
+    /* animation-fill-mode:; */
+    animation-name: zacksportfolio;
+    /* animation-delay: 10s; */
+    animation-duration: 15s;
+    margin: 0px;
+    padding: 0px;
+    margin-top: -170px;
+    margin-left: 100px;
+}
 .mario{
-    background-image: url(marioretro.png);
+    background-image: url(myface.png);
     background-size:contain;
     height: 100px;
     width: 100px;
     position: relative;
-    animation: infinite;
+    animation: 1;
     animation-name: mario;
     animation-duration: 12s;
+    animation-fill-mode: forwards;
 }
 .box{
     background-image: url(retroblock.png);
@@ -31,7 +50,7 @@
     animation:1;
     animation-fill-mode: forwards;
     animation-name: boxtwo;
-    animation-duration: 5s;
+    animation-duration: 4.8s;
 }
 .boxthree{
     background-image: url(retroblock.png);
@@ -67,7 +86,7 @@
     animation:1;
     animation-fill-mode: forwards;
     animation-name: boxfive;
-    animation-duration: 3s;
+    animation-duration: 12.8s;
 }
 .marioflag{
     background-image: url(marioflag.png);
@@ -84,6 +103,7 @@
     height: 600px;
     margin-top: -550px;
 }
+
 
 
 
@@ -178,8 +198,8 @@
     64% {left:450px; top:-20px;}
     66% {left:450px; top:-20px;}
     68% {left:450px; top:-20px;}
-    70% {left:450px; top:-35px;}
-    72% {left:450px; top:-35px;}
+    70% {left:450px; top:-50px;}
+    72% {left:450px; top:-50px;}
     100% {left:450px; top:-20px;}
 }
 @keyframes boxfour{
@@ -199,28 +219,50 @@
     64% {left:700px; top:-70px;}
     66% {left:700px; top:-70px;}
     68% {left:700px; top:-70px;}
-    70% {left:700px; top:-90px;}
-    72% {left:700px; top:-90px;}
+    70% {left:700px; top:-100px;}
+    72% {left:700px; top:-100px;}
     100% {left:700px; top:-70px;}
 }
 @keyframes boxfive{
-    0% {left:800px; top:5px;}
-    20% {left:800px; top:5px;}
-    30% {left:800px; top:5px;}
-    35% {left:800px; top:5px;}
-    40% {left:800px; top:5px;}
-    45% {left:800px; top:5px;}
-    50% {left:800px; top:5px;}
-    52% {left:800px; top:5px;}
-    54% {left:800px; top:5px;}
-    56% {left:800px; top:5px;}
-    60% {left:800px; top:5px;}
-    61% {left:800px; top:5px;}
-    62% {left:800px; top:5px;}
-    64% {left:800px; top:5px;}
-    66% {left:800px; top:5px;}
-    68% {left:800px; top:5px;}
-    70% {left:800px; top:0px;}
-    72% {left:800px; top:0px;}
-    100% {left:800px; top:5px;}
+    0% {left:800px; top:-120px;}
+    20% {left:800px; top:-120px;}
+    30% {left:800px; top:-120px;}
+    35% {left:800px; top:-120px;}
+    40% {left:800px; top:-120px;}
+    45% {left:800px; top:-120px;}
+    50% {left:800px; top:-120px;}
+    52% {left:800px; top:-120px;}
+    54% {left:800px; top:-120px;}
+    56% {left:800px; top:-120px;}
+    60% {left:800px; top:-120px;}
+    61% {left:800px; top:-120px;}
+    62% {left:800px; top:-120px;}
+    64% {left:800px; top:-120px;}
+    66% {left:800px; top:-120px;}
+    68% {left:800px; top:-120px;}
+    70% {left:800px; top:-150px;}
+    72% {left:800px; top:-150px;}
+    100% {left:800px; top:-120px;}
+}
+@keyframes zacksportfolio{
+   0%{opacity: 0;}
+   50%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 0;}
+   0%{opacity: 1;}
+   0%{opacity: 0;}
 }

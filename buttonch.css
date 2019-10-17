@@ -14,50 +14,107 @@
     background-size:contain;
     height: 50px;
     width: 50px;
+    margin:0px;
     position: relative;
-    animation:infinite;
+    animation:1;
+    animation-fill-mode: forwards;
     animation-name: box;
     animation-duration: 3s;
+}
+.boxtwo{
+    background-image: url(retroblock.png);
+    background-size:contain;
+    height: 50px;
+    width: 50px;
+    margin:0px;
+    position: relative;
+    animation:1;
+    animation-fill-mode: forwards;
+    animation-name: boxtwo;
+    animation-duration: 5s;
+}
+.boxthree{
+    background-image: url(retroblock.png);
+    background-size:contain;
+    height: 50px;
+    width: 50px;
+    margin:0px;
+    position: relative;
+    animation:1;
+    animation-fill-mode: forwards;
+    animation-name: boxthree;
+    animation-duration: 7.5s;
+}
+.boxfour{
+    background-image: url(retroblock.png);
+    background-size:contain;
+    height: 50px;
+    width: 50px;
+    margin:0px;
+    position: relative;
+    animation:1;
+    animation-fill-mode: forwards;
+    animation-name: boxfour;
+    animation-duration: 10s;
+}
+.boxfive{
+    background-image: url(retroblock.png);
+    background-size:contain;
+    height: 50px;
+    width: 50px;
+    margin:0px;
+    position: relative;
+    animation:1;
+    animation-fill-mode: forwards;
+    animation-name: boxfive;
+    animation-duration: 3s;
+}
+.marioflag{
+    background-image: url(marioflag.png);
+    background-size:contain;
+    height: 100px;
+    width: 50px;
+    left:1100px;
+    margin:0px;
+    position: relative;
 }
 .mariobackground{
     background-image: url(mariobackground.jpeg);
     background-size:contain;
-    height: 500px;
-    margin-top: -220px;
-}
-.z{
-    font-family: 'IBM Plex Mono', monospace;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 45px;
-    position: relative;
-    animation: infinite;;
-    animation-name: z;
-    animation-duration: 4s;
+    height: 600px;
+    margin-top: -550px;
 }
 
+
+
 @keyframes mario{
-    0% {left:0px; top:370px;}
+    0% {left:30px; top:370px;}
     10% {left:30px; top:370px;}
     15% {left:30px; top:370px;}
     20% {left:30px; top:150px;}
-    22% {left:30px; top:370px;}
-    25% {left:30px; top:370px;}
-    30% {left:30px; top:150px;}
-    35% {left:30px; top:370px;}
-    40% {left:30px;; top:370px;}
-    45% {left:30px; top:150px;}
-    50% {left:30px; top:370px;}
-    55% {left:30px; top:370px;}
-    60% {left:30px; top:150px;}
-    65% {left:30px; top:370px;}
-    70% {left:30px; top:370px;}
-    75% {left:30px; top:150px;}
-    80% {left:30px; top:370px;}
-    85% {left:30px; top:370px;}
-    90% {left:30px; top:150px;}
-    95% {left:30px; top:370px;}
-    100% {left:30px; top:370px;}
+    21% {left:30px; top:370px;}
+    22% {left:150px; top:370px;}
+    25% {left:150px; top:370px;}
+    30% {left:150px; top:150px;}
+    33% {left:150px; top:370px;}
+    35% {left:450px; top:370px;}
+    40% {left:450px;; top:370px;}
+    45% {left:450px; top:150px;}
+    47% {left:450px; top:370px;}
+    50% {left:700px; top:370px;}
+    55% {left:700px; top:370px;}
+    60% {left:700px; top:150px;}
+    63% {left:700px; top:370px;}
+    65% {left:800px; top:370px;}
+    70% {left:800px; top:370px;}
+    75% {left:800px; top:150px;}
+    76% {left:800px; top:150px;}
+    77% {left:800px; top:370px;}
+    80% {left:1000px; top:370px;}
+    85% {left:1000px; top:370px;}
+    90% {left:1000px; top:150px;}
+    95% {left:1100px; top:370px;}
+    100% {left:1100px; top:370px;}
 
 }
 
@@ -82,16 +139,88 @@
     72% {left:40px; top:20px;}
     100% {left:40px; top:80px;}
 }
-@keyframes z{
-    0%  {left:40px; top:-410px;}
-    20% {left:40px; top:-410px;}
-    30% {left:40px; top:-410px;}
-    35% {left:40px; top:-410px;}
-    40% {left:40px; top:-410px;}
-    45% {left:40px; top:-410px;}
-    50% {left:40px; top:-410px;}
-    60% {left:40px; top:-450px;}
-    65% {left:40px; top:-410px;}
-    100% {left:40px; top:-410px;}
-}
 
+@keyframes boxtwo{
+    0% {left:150px; top:30px;}
+    20% {left:150px; top:30px;}
+    30% {left:150px; top:30px;}
+    35% {left:150px; top:30px;}
+    40% {left:150px; top:30px;}
+    45% {left:150px; top:30px;}
+    50% {left:150px; top:30px;}
+    52% {left:150px; top:30px;}
+    54% {left:150px; top:30px;}
+    56% {left:150px; top:30px;}
+    60% {left:150px; top:30px;}
+    61% {left:150px; top:30px;}
+    62% {left:150px; top:30px;}
+    64% {left:150px; top:30px;}
+    66% {left:150px; top:30px;}
+    68% {left:150px; top:30px;}
+    70% {left:150px; top:0px;}
+    72% {left:150px; top:0px;}
+    100% {left:150px; top:30px;}
+}
+@keyframes boxthree{
+    0% {left:450px; top:-20px;}
+    20% {left:450px; top:-20px;}
+    30% {left:450px; top:-20px;}
+    35% {left:450px; top:-20px;}
+    40% {left:450px; top:-20px;}
+    45% {left:450px; top:-20px;}
+    50% {left:450px; top:-20px;}
+    52% {left:450px; top:-20px;}
+    54% {left:450px; top:-20px;}
+    56% {left:450px; top:-20px;}
+    60% {left:450px; top:-20px;}
+    61% {left:450px; top:-20px;}
+    62% {left:450px; top:-20px;}
+    64% {left:450px; top:-20px;}
+    66% {left:450px; top:-20px;}
+    68% {left:450px; top:-20px;}
+    70% {left:450px; top:-35px;}
+    72% {left:450px; top:-35px;}
+    100% {left:450px; top:-20px;}
+}
+@keyframes boxfour{
+    0% {left:700px; top:-70px;}
+    20% {left:700px; top:-70px;}
+    30% {left:700px; top:-70px;}
+    35% {left:700px; top:-70px;}
+    40% {left:700px; top:-70px;}
+    45% {left:700px; top:-70px;}
+    50% {left:700px; top:-70px;}
+    52% {left:700px; top:-70px;}
+    54% {left:700px; top:-70px;}
+    56% {left:700px; top:-70px;}
+    60% {left:700px; top:-70px;}
+    61% {left:700px; top:-70px;}
+    62% {left:700px; top:-70px;}
+    64% {left:700px; top:-70px;}
+    66% {left:700px; top:-70px;}
+    68% {left:700px; top:-70px;}
+    70% {left:700px; top:-90px;}
+    72% {left:700px; top:-90px;}
+    100% {left:700px; top:-70px;}
+}
+@keyframes boxfive{
+    0% {left:800px; top:5px;}
+    20% {left:800px; top:5px;}
+    30% {left:800px; top:5px;}
+    35% {left:800px; top:5px;}
+    40% {left:800px; top:5px;}
+    45% {left:800px; top:5px;}
+    50% {left:800px; top:5px;}
+    52% {left:800px; top:5px;}
+    54% {left:800px; top:5px;}
+    56% {left:800px; top:5px;}
+    60% {left:800px; top:5px;}
+    61% {left:800px; top:5px;}
+    62% {left:800px; top:5px;}
+    64% {left:800px; top:5px;}
+    66% {left:800px; top:5px;}
+    68% {left:800px; top:5px;}
+    70% {left:800px; top:0px;}
+    72% {left:800px; top:0px;}
+    100% {left:800px; top:5px;}
+}
